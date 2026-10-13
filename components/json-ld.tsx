@@ -1,0 +1,9 @@
+/** Strukturirani podaci za pretraživače. `<` se escapuje da sadržaj ne može zatvoriti script tag. */
+export function JsonLd({ data }: { data: Record<string, unknown> | Record<string, unknown>[] }) {
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }}
+    />
+  );
+}
