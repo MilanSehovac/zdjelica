@@ -56,7 +56,7 @@ export const guides: Guide[] = [
       },
       { heading: "Napomena", paragraphs: [DISCLAIMER] },
     ],
-    related: ["piletina-i-riza-odrasli-psi", "janjetina-i-povrce-odrasli-psi", "stenci-suha-hrana"],
+    related: ["piletina-i-riza-odrasli-psi", "janjetina-i-povrce-odrasli-psi", "stenci-suva-hrana"],
   },
   {
     slug: "koliko-hrane-dati-macki",
@@ -80,7 +80,7 @@ export const guides: Guide[] = [
           "težina i uzrast mačke",
           "aktivnost (kućna mačka troši manje nego ona koja izlazi)",
           "sterilizacija, nakon koje se potrošnja energije obično smanji",
-          "vrsta hrane, jer mokra i suha hrana imaju različitu gustinu energije",
+          "vrsta hrane, jer mokra i suva hrana imaju različitu gustinu energije",
         ],
       },
       {
@@ -104,20 +104,20 @@ export const guides: Guide[] = [
       },
       { heading: "Napomena", paragraphs: [DISCLAIMER] },
     ],
-    related: ["piletina-i-curetina-odrasle-macke", "sterilisane-macke-suha-hrana", "kremasta-poslastica-macke"],
+    related: ["piletina-i-curetina-odrasle-macke", "sterilisane-macke-suva-hrana", "kremasta-poslastica-macke"],
   },
   {
-    slug: "suha-ili-mokra-hrana-za-macke",
-    title: "Suha ili mokra hrana za mačke: šta odabrati",
+    slug: "suva-ili-mokra-hrana-za-macke",
+    title: "Suva ili mokra hrana za mačke: šta odabrati",
     description:
-      "Prednosti i mane suhe i mokre hrane za mačke i kako ih kombinovati, uz savjet kad odluku treba prepustiti veterinaru.",
+      "Prednosti i mane suve i mokre hrane za mačke i kako ih kombinovati, uz savjet kad odluku treba prepustiti veterinaru.",
     published: "2026-10-13",
     readMinutes: 4,
     intro:
       "Nema jedne najbolje opcije za sve mačke. Obje vrste hrane imaju prednosti, a mnogi vlasnici ih kombinuju.",
     sections: [
       {
-        heading: "Suha hrana",
+        heading: "Suva hrana",
         list: [
           "praktična, može stajati u zdjelici tokom dana",
           "lako se odmjerava i obično je jeftinija po obroku",
@@ -139,9 +139,9 @@ export const guides: Guide[] = [
         ],
       },
       {
-        heading: "Zubi i suha hrana",
+        heading: "Zubi i suva hrana",
         paragraphs: [
-          "Ima uvriježeno mišljenje da suha hrana čisti zube. Ona to ne garantuje i ne zamjenjuje redovne preglede kod veterinara.",
+          "Ima uvriježeno mišljenje da suva hrana čisti zube. Ona to ne garantuje i ne zamjenjuje redovne preglede kod veterinara.",
         ],
       },
       {
@@ -234,11 +234,11 @@ export const guides: Guide[] = [
         list: [
           "štenad i mlade mačke jedu sve više kako rastu",
           "sterilizacija i starost obično smanjuju potrebu",
-          "poslastice i mokra hrana smanjuju količinu suhe hrane koja je potrebna",
+          "poslastice i mokra hrana smanjuju količinu suve hrane koja je potrebna",
         ],
       },
     ],
-    related: ["piletina-i-riza-odrasli-psi", "stenci-suha-hrana", "piletina-i-curetina-odrasle-macke"],
+    related: ["piletina-i-riza-odrasli-psi", "stenci-suva-hrana", "piletina-i-curetina-odrasle-macke"],
   },
 ];
 

@@ -8,7 +8,7 @@ import { absoluteUrl } from "@/lib/site";
 
 export const metadata = pageMetadata({
   title: "Vodiči za vlasnike pasa i mačaka",
-  description: "Praktični vodiči o ishrani pasa i mačaka: prelazak na novu hranu, količine, suha ili mokra hrana i izbor pijeska.",
+  description: "Praktični vodiči o ishrani pasa i mačaka: prelazak na novu hranu, količine, suva ili mokra hrana i izbor pijeska.",
   path: "/vodici",
 });
 

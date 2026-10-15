@@ -111,6 +111,8 @@ function migrate(db: Db) {
   if (!cols.some((c) => c.name === "is_admin")) {
     db.exec("ALTER TABLE users ADD COLUMN is_admin INTEGER NOT NULL DEFAULT 0");
   }
+  // Kategorija "suha-hrana" je preimenovana u "suva-hrana"; prebacujemo postojeće proizvode.
+  db.exec("UPDATE products SET category = 'suva-hrana' WHERE category = 'suha-hrana'");
   seedCatalog(db);
 }
 

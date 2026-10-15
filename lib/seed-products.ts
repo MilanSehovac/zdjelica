@@ -5,14 +5,14 @@ export const SEED_PRODUCTS: Product[] = [
   // ───────────── PSI ─────────────
   {
     slug: "piletina-i-riza-odrasli-psi",
-    name: "Suha hrana s piletinom i rižom za odrasle pse",
+    name: "Suva hrana s piletinom i rižom za odrasle pse",
     pet: "pas",
-    category: "suha-hrana",
+    category: "suva-hrana",
     pack: "bag",
     tone: 0,
     short: "Svakodnevna hrana za odrasle pse svih pasmina.",
     description: [
-      "Suha hrana s piletinom kao glavnim izvorom proteina i rižom kao izvorom energije. Namijenjena odraslim psima svih pasmina.",
+      "Suva hrana s piletinom kao glavnim izvorom proteina i rižom kao izvorom energije. Namijenjena odraslim psima svih pasmina.",
       "Odmjerite količinu prema uputstvu na pakovanju i težini psa, a prelazak sa stare hrane radite postepeno tokom sedam do deset dana.",
     ],
     highlights: ["Piletina kao glavni izvor proteina", "Za odrasle pse svih pasmina", "Pakovanja 3 kg i 12 kg"],
@@ -25,14 +25,14 @@ export const SEED_PRODUCTS: Product[] = [
   },
   {
     slug: "janjetina-i-povrce-odrasli-psi",
-    name: "Suha hrana s janjetinom i povrćem za odrasle pse",
+    name: "Suva hrana s janjetinom i povrćem za odrasle pse",
     pet: "pas",
-    category: "suha-hrana",
+    category: "suva-hrana",
     pack: "bag",
     tone: 1,
     short: "Alternativa za pse koji ne vole piletinu.",
     description: [
-      "Suha hrana s janjetinom i povrćem za odrasle pse. Dobar izbor ako vaš pas voli raznolikost ili ne prihvata piletinu.",
+      "Suva hrana s janjetinom i povrćem za odrasle pse. Dobar izbor ako vaš pas voli raznolikost ili ne prihvata piletinu.",
       "Ako sumnjate na alergiju ili intoleranciju na neku hranu, o promjeni ishrane prvo se posavjetujte s veterinarom.",
     ],
     highlights: ["Janjetina kao glavni izvor proteina", "Sa povrćem", "Pakovanja 3 kg i 12 kg"],
@@ -43,15 +43,15 @@ export const SEED_PRODUCTS: Product[] = [
     intervalWeeks: 6,
   },
   {
-    slug: "stenci-suha-hrana",
-    name: "Suha hrana za štence",
+    slug: "stenci-suva-hrana",
+    name: "Suva hrana za štence",
     pet: "pas",
-    category: "suha-hrana",
+    category: "suva-hrana",
     pack: "bag",
     tone: 2,
     short: "Hrana prilagođena štencima u rastu.",
     description: [
-      "Suha hrana za štence, sa sitnijim granulama koje je lakše žvakati. Štenci jedu češće i u manjim obrocima, pa raspodijelite dnevnu količinu na tri do četiri obroka.",
+      "Suva hrana za štence, sa sitnijim granulama koje je lakše žvakati. Štenci jedu češće i u manjim obrocima, pa raspodijelite dnevnu količinu na tri do četiri obroka.",
       "Kad pas odraste, na hranu za odrasle prelazite postepeno.",
     ],
     highlights: ["Sitne granule za štence", "Dnevna doza u više obroka", "Pakovanja 3 kg i 12 kg"],
@@ -175,14 +175,14 @@ export const SEED_PRODUCTS: Product[] = [
   // ───────────── MAČKE ─────────────
   {
     slug: "piletina-i-curetina-odrasle-macke",
-    name: "Suha hrana s piletinom i ćuretinom za odrasle mačke",
+    name: "Suva hrana s piletinom i ćuretinom za odrasle mačke",
     pet: "macka",
-    category: "suha-hrana",
+    category: "suva-hrana",
     pack: "bag",
     tone: 1,
     short: "Svakodnevna hrana za odrasle mačke.",
     description: [
-      "Suha hrana s piletinom i ćuretinom za odrasle mačke. Odmjerite dnevnu količinu prema uputstvu i podijelite je na više manjih obroka.",
+      "Suva hrana s piletinom i ćuretinom za odrasle mačke. Odmjerite dnevnu količinu prema uputstvu i podijelite je na više manjih obroka.",
       "Obezbijedite uvijek svježu vodu.",
     ],
     highlights: ["Piletina i ćuretina", "Za odrasle mačke", "Pakovanja 2 kg i 7 kg"],
@@ -194,15 +194,15 @@ export const SEED_PRODUCTS: Product[] = [
     featured: true,
   },
   {
-    slug: "sterilisane-macke-suha-hrana",
-    name: "Suha hrana za sterilisane mačke",
+    slug: "sterilisane-macke-suva-hrana",
+    name: "Suva hrana za sterilisane mačke",
     pet: "macka",
-    category: "suha-hrana",
+    category: "suva-hrana",
     pack: "bag",
     tone: 2,
     short: "Prilagođena mačkama nakon sterilizacije.",
     description: [
-      "Suha hrana za sterilisane mačke, s prilagođenim energetskim sadržajem. Nakon sterilizacije mačke obično troše manje energije, pa je važno pratiti količinu hrane.",
+      "Suva hrana za sterilisane mačke, s prilagođenim energetskim sadržajem. Nakon sterilizacije mačke obično troše manje energije, pa je važno pratiti količinu hrane.",
     ],
     highlights: ["Za sterilisane mačke", "Pakovanja 2 kg i 7 kg"],
     variants: [

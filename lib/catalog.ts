@@ -5,7 +5,7 @@
  */
 
 export type Pet = "pas" | "macka";
-export type CategorySlug = "suha-hrana" | "mokra-hrana" | "poslastice" | "higijena";
+export type CategorySlug = "suva-hrana" | "mokra-hrana" | "poslastice" | "higijena";
 export type PackShape = "bag" | "can" | "pouch" | "box" | "bottle" | "tube" | "tub";
 
 export type Variant = {
@@ -41,7 +41,7 @@ export const PETS: Record<Pet, { slug: Pet; label: string; plural: string; genit
 };
 
 export const CATEGORIES: Record<CategorySlug, { slug: CategorySlug; label: string; singular: string }> = {
-  "suha-hrana": { slug: "suha-hrana", label: "Suha hrana", singular: "suha hrana" },
+  "suva-hrana": { slug: "suva-hrana", label: "Suva hrana", singular: "suva hrana" },
   "mokra-hrana": { slug: "mokra-hrana", label: "Mokra hrana", singular: "mokra hrana" },
   poslastice: { slug: "poslastice", label: "Poslastice", singular: "poslastice" },
   higijena: { slug: "higijena", label: "Higijena i njega", singular: "higijena i njega" },
@@ -55,18 +55,18 @@ export const LANDING: Record<
   pas: {
     title: "Hrana i potrepštine za pse",
     description:
-      "Suha i mokra hrana, poslastice i higijena za pse. Plaćanje pouzećem, dostava širom BiH i podsjetnik kad je vrijeme za novu vreću.",
+      "Suva i mokra hrana, poslastice i higijena za pse. Plaćanje pouzećem, dostava širom BiH i podsjetnik kad je vrijeme za novu vreću.",
     intro: [
       "Pas se hrani svaki dan, pa je najpraktičnije da hrana dolazi po rasporedu, a ne kad nam već ponestane. Ovdje možete odabrati hranu, sačuvati je u omiljene i označiti da je uzimate redovno.",
       "Sve narudžbe plaćate pouzećem, a dostava ide na kućnu adresu u cijeloj Bosni i Hercegovini.",
     ],
     categories: {
-      "suha-hrana": {
-        title: "Suha hrana za pse",
+      "suva-hrana": {
+        title: "Suva hrana za pse",
         description:
-          "Suha hrana za štence i odrasle pse u pakovanjima od 3 i 12 kg. Dostava pouzećem širom BiH.",
+          "Suva hrana za štence i odrasle pse u pakovanjima od 3 i 12 kg. Dostava pouzećem širom BiH.",
         intro: [
-          "Suha hrana je najčešći izbor za svakodnevnu ishranu pasa jer se lako odmjerava i dugo traje. Za štence birajte hranu označenu za štenad, a za odrasle pse onu za odrasle.",
+          "Suva hrana je najčešći izbor za svakodnevnu ishranu pasa jer se lako odmjerava i dugo traje. Za štence birajte hranu označenu za štenad, a za odrasle pse onu za odrasle.",
           "Velika pakovanja su povoljnija po kilogramu, a ako ih uzimate redovno, označite ih kao omiljene i podesite razmak narudžbe.",
         ],
       },
@@ -100,18 +100,18 @@ export const LANDING: Record<
   macka: {
     title: "Hrana i potrepštine za mačke",
     description:
-      "Suha i mokra hrana, poslastice i pijesak za mačke. Plaćanje pouzećem, dostava širom BiH i podsjetnik za obnovu zaliha.",
+      "Suva i mokra hrana, poslastice i pijesak za mačke. Plaćanje pouzećem, dostava širom BiH i podsjetnik za obnovu zaliha.",
     intro: [
       "Mačke vole rutinu, a hrana i pijesak su stvari koje se troše ravnomjerno. Zato je najlakše podesiti redovnu narudžbu i dobiti podsjetnik prije nego zalihe nestanu.",
       "Plaćanje je pouzećem, a dostava ide na kućnu adresu u cijeloj BiH.",
     ],
     categories: {
-      "suha-hrana": {
-        title: "Suha hrana za mačke",
+      "suva-hrana": {
+        title: "Suva hrana za mačke",
         description:
-          "Suha hrana za odrasle i sterilisane mačke u pakovanjima od 2 i 7 kg. Dostava pouzećem širom BiH.",
+          "Suva hrana za odrasle i sterilisane mačke u pakovanjima od 2 i 7 kg. Dostava pouzećem širom BiH.",
         intro: [
-          "Suha hrana je praktična jer se ne kvari u zdjelici i lako se odmjerava. Sterilisane mačke često trebaju hranu prilagođenu manjoj potrošnji energije, pa pročitajte oznaku na pakovanju.",
+          "Suva hrana je praktična jer se ne kvari u zdjelici i lako se odmjerava. Sterilisane mačke često trebaju hranu prilagođenu manjoj potrošnji energije, pa pročitajte oznaku na pakovanju.",
           "Mačka treba uvijek imati pristup svježoj vodi, posebno kad jede suhu hranu.",
         ],
       },

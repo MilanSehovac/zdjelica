@@ -247,7 +247,7 @@ describe("admin: upravljanje proizvodima", () => {
   const input: ProductInput = {
     name: "Hrana s ćuretinom za štence",
     pet: "pas",
-    category: "suha-hrana",
+    category: "suva-hrana",
     pack: "bag",
     tone: 2,
     short: "Test proizvod za štence.",
@@ -269,7 +269,7 @@ describe("admin: upravljanje proizvodima", () => {
     assert.equal(a.slug, "hrana-s-curetinom-za-stence");
     assert.equal(b.slug, "hrana-s-curetinom-za-stence-2");
     assert.deepEqual(a.variants.map((v) => v.id), ["2-kg", "10-kg"]);
-    assert.ok(getProducts({ pet: "pas", category: "suha-hrana" }).some((p) => p.slug === a.slug));
+    assert.ok(getProducts({ pet: "pas", category: "suva-hrana" }).some((p) => p.slug === a.slug));
     const sku = makeSku(a.slug, "2-kg");
     assert.equal(parseSku(sku)?.variant.priceCents, 1200);
     assert.equal(priceCart([{ sku, quantity: 2 }])[0].lineTotalCents, 2400);

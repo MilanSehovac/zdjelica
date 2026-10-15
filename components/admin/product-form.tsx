@@ -102,7 +102,7 @@ export function ProductForm({ product }: { product?: Product }) {
           </div>
           <div>
             <label htmlFor="category" className="label">Kategorija</label>
-            <select id="category" name="category" className="field" defaultValue={initial("category", product?.category ?? "suha-hrana")}>
+            <select id="category" name="category" className="field" defaultValue={initial("category", product?.category ?? "suva-hrana")}>
               {Object.values(CATEGORIES).map((c) => (
                 <option key={c.slug} value={c.slug}>{c.label}</option>
               ))}

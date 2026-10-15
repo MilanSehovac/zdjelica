@@ -46,7 +46,7 @@ export default async function AdminProductsPage({
                   <Link href={`/admin/proizvodi/${p.slug}`} className="text-ink">{p.name}</Link>
                 </h2>
                 <p className="text-sm text-ink-soft">
-                  {PETS[p.pet].label} · {CATEGORIES[p.category].label} · {p.variants.length} {p.variants.length === 1 ? "varijanta" : "varijante"}
+                  {PETS[p.pet]?.label ?? p.pet} · {CATEGORIES[p.category]?.label ?? p.category} · {p.variants.length} {p.variants.length === 1 ? "varijanta" : "varijante"}
                 </p>
                 <p className="mt-0.5 font-bold">{range}</p>
                 <p className="mt-1 flex flex-wrap gap-2 text-xs font-bold">
